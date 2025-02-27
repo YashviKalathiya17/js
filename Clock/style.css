@@ -1,0 +1,19 @@
+body {
+	background-color:#fbc2eb;
+	margin: 0;
+	padding: 0;
+}
+#clock {
+	width: 350px;
+	margin-top: 15%;
+	margin-left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 4em;
+	font-family: "Stardos Stencil", cursive;
+	text-align: center;
+	padding: 15px;
+}
+
+.drop-shadow {
+	background-color:beige;
+}
