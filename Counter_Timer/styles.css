@@ -1,0 +1,17 @@
+body{
+    background-color: aliceblue;
+}
+.all{
+    padding-top: 200px;
+}
+.buttons{
+    background-color: black;
+    width:100px;
+    height:40px;
+    color:white;
+    cursor:pointer;
+}
+#output{
+    padding-top:50px;
+    
+}
