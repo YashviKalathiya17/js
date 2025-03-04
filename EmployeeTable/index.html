@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Table with Details</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>Employee Table</h2>
+
+        <form id="employeeForm">
+            <input type="text" id="empImage" placeholder="Image URL" required>
+            <input type="text" id="empName" placeholder="Enter Name" required>
+            <input type="number" id="empAge" placeholder="Enter Age" required>
+            <input type="text" id="empDept" placeholder="Enter Department" required>
+            <input type="text" id="empCity" placeholder="Enter City" required>
+            <input type="email" id="empEmail" placeholder="Enter Email" required>
+            <input type="tel" id="empNumber" placeholder="Enter Phone Number" required>
+            <button type="submit">Add Employee</button>
+        </form>
+
+        <table id="employeeTable">
+            <thead>
+                <tr>
+                    <th>Image</th>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Department</th>
+                    <th>City</th>
+                    <th>Email</th>
+                    <th>Number</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+
+        <button id="deleteAll">Delete All Employees</button>
+    </div>
+
+    <div id="imageModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="fullImage">
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
