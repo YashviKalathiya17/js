@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>News System</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h3>Add News</h3>
+    <form onsubmit="addNews(event)">
+        <input type="text" id="newsId" placeholder="News ID" required>
+        <input type="text" id="newsTitle" placeholder="Title" required>
+        <input type="text" id="newsCategory" placeholder="Category" required>
+        <input type="url" id="newsImage" placeholder="Image URL" required>
+        <button type="submit">Add News</button>
+    </form>
+    
+    <h2>News System</h2>
+    
+    <label>Search: <input type="text" id="searchInput"></label>
+    <button onclick="searchNews()">Search</button>
+    
+    <label>Filter by Category:
+        <select id="categoryFilter" onchange="filterNews()">
+            <option value="">All</option>
+            <option value="Politics">Politics</option>
+            <option value="Sports">Sports</option>
+            <option value="Technology">Technology</option>
+        </select>
+    </label>
+    
+    <div class="news-container" id="newsList"></div>
+    
+    <script src="./script.js"></script>
+</body>
+</html>

@@ -38,8 +38,9 @@ function validateForm() {
         document.getElementById("confirmPasswordError").innerText = "Passwords do not match";
         isValid = false;
     } else {
-        document.getElementById("confirmPasswordError").innerText = "";
+        document.getElementById("confirmPasswordError").innerTexએt = "";
     }
 
     return isValid;
 }
+

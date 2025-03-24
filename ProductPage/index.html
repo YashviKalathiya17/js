@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <!-- css file attechment -->
+  <link rel="stylesheet" href="style.css"/>
+</head>
+
+<body>
+  <form id="product">
+    <input type="text" id="title" placeholder="title" />
+    <input type="number" id="price" placeholder="price" />
+    <input type="src" id="image" placeholder="images" />
+
+    <select id="category">
+      <option value="">select</option>
+      <option value="kids">Kids</option>
+      <option value="women">Women</option>
+      <option value="men">Men</option>
+    </select>
+
+    <input type="submit" value="create" />
+  </form>
+
+  <hr />
+  <button id="lth" class="btnSort">Low To High</button>
+  <button id="htl">High To Low</button>
+
+  <button id="kids">Kids</button>
+  <button id="women">Women</button>
+  <button id="men">Men</button>
+
+  <div id="productlist" class="product"></div>
+</body>
+<!-- java script file attechment -->
+<script src="./script.js"></script>
+
+</html>
