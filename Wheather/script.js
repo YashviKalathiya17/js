@@ -9,7 +9,7 @@ const uiMaker = (data) => {
                   <span class="weather_unit_farenheit">&#176F</span>
               </div>
           </div>
-          <div class="weather__body">
+          <div class="weather__body">   
      
               <p class="weather__temperature">
               ${data.main.temp}
