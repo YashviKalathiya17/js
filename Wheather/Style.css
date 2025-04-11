@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.container {
+    background: rgb(113, 122, 130);
+    color: white;
+    padding: 2rem;
+    width: 40%;
+    margin: 4rem auto;
+    border-radius: 10px;
+}
+.weather__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+input {
+    border: none;
+    background: rgb(113, 122, 130);
+    outline: none;
+    color: black;
+    padding: 0.5rem 2.5rem;
+    border-radius: 5px;
+}
+input::placeholder {
+    color: black;
+}
+.weather__search {
+    position: relative;
+}
+.weather__search i {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    font-size: 15px;
+    color: #fff;
+}
+.weather__units {
+    font-size: 1.5rem;
+}
+.weather__body {
+    text-align: center; 
+}
+.weather__temperature {
+    font-size: 1.75rem;
+}
+.weather__minmax {
+    display: flex;
+    justify-content: center;
+}
+.weather__minmax p {
+    font-size: 14px;
+    margin: 0.5rem;
+}
